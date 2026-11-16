@@ -45,25 +45,25 @@ async function main() {
   //
   // Do the same here. Insert one book that has a publisher field
   // containing an embedded object with at least a name and a country.
-
+  
   // ----------------------------------------------------------
   // TODO 2 - insertOne with an array
   // ----------------------------------------------------------
   // Insert one book that has a tags field containing
   // an array of at least 3 strings.
-
+  
   // ----------------------------------------------------------
   // TODO 3 - insertMany
   // ----------------------------------------------------------
   // Insert at least 5 books in a single call using insertMany.
   // Include a mix: some with a publisher object, some with tags, some with both.
-
+  
   // ----------------------------------------------------------
   // TODO 4 - find all documents
   // ----------------------------------------------------------
   // Retrieve every document in the collection and log each title.
   // Hint: find() returns a cursor - call .toArray() to get an array.
-
+  
   // ----------------------------------------------------------
   // TODO 5 - findOne with dot notation
   // ----------------------------------------------------------
